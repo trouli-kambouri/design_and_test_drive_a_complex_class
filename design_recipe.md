@@ -30,7 +30,8 @@ class BirthdayRecords():
         self.name = name
         self.birthday = birthday
         self.birthday_dict = {}
-    
+        self.birthday_dict.append(name, birthday)
+
     def update_birthday(self, new_birthday):
 
         self.birthday_dict.update({"name"}: new_birthday)
@@ -46,4 +47,12 @@ class BirthdayRecords():
     pass
 
 3. Test examples
+
+first test:
+
+create an instance of the class BirthdayRecords
+def person_1_birthday = BirthdayRecords(self.name, self.birthday)
+assert self.birthday_dict() == person_1_name, person_1_birthday
+
+
 
